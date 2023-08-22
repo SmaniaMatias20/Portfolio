@@ -9,7 +9,6 @@ header {
     color: white;
     display: flex;
     align-items: center;
-    padding-left: 25px;
     border-style: outset;
     border-color: black ;
     box-shadow: 2px 2px 15px white;
@@ -17,24 +16,13 @@ header {
 
 }
 
-nav {
-    width: 50%;
-}
-
 .boton-ancla {
     color: #ffffff;
     background-color: black;
     height: 40px;
     width: 130px;
+    margin-left: 10px;
 }
-
-.curriculum {
-    margin-left: 700px ;
-}
-
-
-
-
 
 
 /*-------------------------------------------------------------------------------------------------*/
@@ -84,17 +72,26 @@ nav {
     padding: 10px 5px;
     margin: 10px;
     box-shadow: 5px 5px 15px black;
+}
+.dos-a:hover {
+    color: #ffffff;
+    background-color: #00040e;
     
 }
+
+
 
 .dos-b {
     width: 100%;
     padding: 10px 5px;
     margin: 10px;
     box-shadow: 5px 5px 15px black;
-
-
 }
+.dos-b:hover {
+    color: #ffffff;
+    background-color: #00040e;
+}
+
 
 .aptitudes {
     width: 50%;
@@ -198,7 +195,42 @@ footer {
 
 
 @media (max-width: 1000px) {
+
+    header {
+        height: auto;
+        flex-direction: row;
     
+    
+    }
+    
+    nav {
+       flex-direction: row;
+    }
+    
+    .boton-ancla {
+        margin-left: 0;
+        width: 100%;
+        
+    }
+    
+    /*---------------------------------------------------------------------------------------------*/
+    
+    #uno {
+        height: auto;
+        flex-direction: column;
+        align-items: center; 
+        
+    }
+    
+    
+    
+    .cara {
+        height: auto;
+        
+        margin: 0;
+    }
+
+    /*---------------------------------------------------------------------------------------------*/
 
     .aptitudes {
         width: auto;
@@ -206,13 +238,34 @@ footer {
 
     #dos {
         height: auto;
-        padding: 0 10px 10px 10px;
+        flex-direction: column;
+        align-items: center;
 
     }
+
+    .dos-a {
+        margin: 10px 0;
+        width: 90%;
+    }
+
+    .imagen-tech {
+        height: 50px;
+        margin: 0;
+    }
+    .dos-b {
+        margin-left: 10px 0;
+        width: 90%;
+    }
+
+    /*---------------------------------------------------------------------------------------------*/
 
     #tres {
         height: auto;
     }
+
+
+
+    /*---------------------------------------------------------------------------------------------*/
 
     #cuatro {
         height: auto;
