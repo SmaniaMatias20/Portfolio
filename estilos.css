@@ -94,13 +94,13 @@ header {
 
 
 .aptitudes {
-    width: 50%;
+    width: 100%;
 }
 
 .tech-list {
     display: flex;
-    justify-content: space-between;
     padding-top: 10px;
+    flex-wrap: wrap;
 }
 
 .imagen-tech {
@@ -249,7 +249,8 @@ footer {
     }
 
     .imagen-tech {
-        height: 50px;
+        height: 100px;
+        width: 100px;
         margin: 0;
     }
     .dos-b {
