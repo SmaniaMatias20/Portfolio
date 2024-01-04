@@ -182,35 +182,27 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
 /*-------------------------------------------------------------------------------------------------*/
 
 
 @media (max-width: 1000px) {
 
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton-ancla {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 10px;
+        height: 40px;
+        width: 100px;
+    }
+
     header {
         height: auto;
-        flex-direction: row;
-    
-    
-    }
-    
-    nav {
-       flex-direction: row;
-    }
-    
-    .boton-ancla {
-        margin-left: 0;
-        width: 100%;
-        
+        align-items: center;
     }
     
     /*---------------------------------------------------------------------------------------------*/
