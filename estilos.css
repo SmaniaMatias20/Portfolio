@@ -12,8 +12,6 @@ header {
     border-style: outset;
     border-color: black ;
     box-shadow: 2px 2px 15px white;
-
-
 }
 
 .boton-ancla {
@@ -38,20 +36,20 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: calc(100vh - 65px);
     background-color: #00040e;
-    color: white;
+    color: white;   
 }
 
 
 
 .cara {
+
     height: 300px;
     width: 300px;
     border-radius: 50%;
     box-shadow: 5px 5px 15px black;
     filter: brightness(85%);
-    margin: 35% 10%
+    
 }
 
 .cara:hover {
@@ -62,9 +60,22 @@ header {
 }
 
 .presentacion{
-    
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 
+}
+
+.informacion{
+    text-align: center;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
@@ -117,19 +128,8 @@ header {
 
 /*-------------------------------------------------------------------------------------------------*/
 #tres {
-    background-color:#00040e;;
-    height: 700px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-    color: #F2F2F2;
-}
-
-/*-------------------------------------------------------------------------------------------------*/
-#cuatro {
     background-color: #00040e;
-    height: 500px;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -182,7 +182,7 @@ footer {
     justify-content: flex-start;
     align-items: center;
     color: #F2F2F2;
-    height: 250px;
+    height: 100%;
 }
 
 .contacto {
@@ -241,8 +241,18 @@ footer {
     
     .cara {
         height: auto;
-        
-        margin: 0;
+        margin-left: 20%;
+    }
+
+    .informacion {
+        text-align: center;
+    }
+
+    .sobre {
+        width: 100%; 
+        display: grid;
+        justify-content: left;
+
     }
 
     /*---------------------------------------------------------------------------------------------*/
@@ -272,18 +282,9 @@ footer {
         margin-left: 10px 0;
         width: 90%;
     }
-
     /*---------------------------------------------------------------------------------------------*/
 
     #tres {
-        height: auto;
-    }
-
-
-
-    /*---------------------------------------------------------------------------------------------*/
-
-    #cuatro {
         height: auto;
         
 
